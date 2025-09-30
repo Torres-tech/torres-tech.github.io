@@ -1,4 +1,4 @@
-# Dang Lam - Portfolio Website
+# Khang Lam - Portfolio Website
 
 A modern, responsive portfolio website built with HTML, CSS, and JavaScript. This website showcases your skills, experience, and projects as a Full Stack Engineer.
 
