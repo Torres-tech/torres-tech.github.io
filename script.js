@@ -315,7 +315,7 @@ const loadingStyles = `
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(135deg,rgb(168, 227, 42) 0%,rgb(190, 29, 29) 100%);
         z-index: 10000;
         display: flex;
         align-items: center;
