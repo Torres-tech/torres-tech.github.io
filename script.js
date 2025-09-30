@@ -302,6 +302,29 @@ window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
 
+// Experience toggle functionality
+function toggleExperience(header) {
+    const details = header.nextElementSibling;
+    const isExpanded = header.classList.contains('expanded');
+    
+    // Close all other experience items
+    document.querySelectorAll('.experience-header').forEach(h => {
+        if (h !== header) {
+            h.classList.remove('expanded');
+            h.nextElementSibling.classList.remove('expanded');
+        }
+    });
+    
+    // Toggle current item
+    if (isExpanded) {
+        header.classList.remove('expanded');
+        details.classList.remove('expanded');
+    } else {
+        header.classList.add('expanded');
+        details.classList.add('expanded');
+    }
+}
+
 // Add CSS for loading animation
 const loadingStyles = `
     body:not(.loaded) {
